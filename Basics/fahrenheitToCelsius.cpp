@@ -4,7 +4,7 @@ using namespace std;
 void fahrenheitToCelsius(int s, int e, int w) {
     for (int f = s; f <= e; f += w) {
         int celsius = ((f - 32) * 5 / 9);
-        cout << f << " " << celsius << endl;
+        cout << f << "\t" << celsius << endl;
     }
 }
 
